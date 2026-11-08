@@ -1,0 +1,64 @@
+
+# ==========================================
+# CardVault - Git Ignore
+# ==========================================
+
+# ---------- Java / Maven ----------
+**/target/
+**/build/
+**/out/
+
+# Maven Wrapper
+# Mantemos .mvn/wrapper/maven-wrapper.jar versionado.
+
+# ---------- Eclipse ----------
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.sts4-cache/
+.springBeans
+
+# ---------- IntelliJ IDEA ----------
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ---------- VS Code ----------
+.vscode/
+
+# ---------- NetBeans ----------
+**/nbproject/private/
+**/nbbuild/
+**/nbdist/
+**/.nb-gradle/
+
+# ---------- Frontend / Node.js ----------
+**/node_modules/
+**/dist/
+**/.next/
+**/.nuxt/
+**/coverage/
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- Sistema operacional ----------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---------- Variáveis de ambiente ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Arquivos temporários ----------
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
